@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Navbar from './UI/Navbar';
+// import Navbar from './UI/Navbar';
 
 export default function NavTabs() {
     return (
