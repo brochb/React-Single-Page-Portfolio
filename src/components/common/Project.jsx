@@ -4,7 +4,9 @@ export default function Project({ title, description, deployedLink, repoLink, im
             <h3>{title}</h3>
             <p>{description}</p>
             <div>
-                <img src={imageLink} alt={title} />
+                <a href={repoLink} target="_blank" rel="noopener noreferrer">
+                    <img src={imageLink} alt={title} style={{ maxWidth: '100%', maxHeight: '300px' }} />
+                </a>
             </div>
             <div>
                 <a href={deployedLink} target="_blank" rel="noopener noreferrer">
