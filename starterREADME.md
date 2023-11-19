@@ -5,16 +5,6 @@ Header contains Name, Navigation, and Titles as well as navbar
 FOOTER
 Footer contain text/icon links to my GitHub, and LinkedIn profiles, and my profiles on third platform (Stack Overflow, Twitter)
 
-***issue*
-Assets in public directory cannot be imported from JavaScript.
-If you intend to import that asset, put the file in the src directory, and use /src/avatar.jpg instead of /public/avatar.jpg.
-If you intend to use the URL of that asset, use /avatar.jpg?url.
-Assets in public directory cannot be imported from JavaScript.
-If you intend to import that asset, put the file in the src directory, and use /src/avatar.jpg instead of /public/avatar.jpg.
-If you intend to use the URL of that asset, use /avatar.jpg?url. (x2)
-files in the public directory are served at the root path.
-Instead of /public/avatar.jpg, use /avatar.jpg.
-
 
 PORTFOLIO
 Add six projects with images, and link to to both the deployed application, and the corresponding GitHub repo
