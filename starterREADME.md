@@ -1,22 +1,7 @@
 ```md
-PORTFOLIO
-Add six projects with images, and link to to both the deployed application, and the corresponding GitHub repo
-
 RESUME
 Downloadable resume link, and a short message
 ```
-
-### Projects
-
-For each project that is featured in your portfolio, include the following:
-
-* An image of the deployed application (either a short animated GIF or screenshot)
-
-* The title of the project
-
-* A link to the deployed application
-
-* A link to the corresponding GitHub repository
 
 ### Design
 
