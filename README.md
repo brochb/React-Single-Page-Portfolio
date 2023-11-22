@@ -8,28 +8,24 @@
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contributing](#contributing)
-  - [Tests](#tests)
   - [Questions](#questions)
   - [Licese](#license)
   - [Contact](#contact)
 
   ## Installation
-  <li>Clone the repository found on github to your local machine.<br><li>Install Node.js, and Express.js<br><li>In the root directory open an integrated terminal<br><li>Run <strong>npm i</strong> to update and install node_modules.<br><li>Run <strong>npm start</strong>
-  ***finish installation instructions***
+  While this is unnecessary, you can follow these steps to install the application onto your local machine.<li>Clone the repository found on github to your local machine.<br><li>Install Node.js, and Express.js<br><li>In the root directory open an integrated terminal<br><li>Run the following commands in order<br><strong>npm i</strong><br><strong>npm run install</strong><br><strong>npm run build</strong><br><strong>npm run start</strong><br>
 
   ## Usage
   Simply navigate to...<br>
-  ***Deployed application***<br>
+  https://react-singlepage-portfolio.netlify.app/<br>
   where you find the deployed application as well as a link in the application to download it.<br>
   If you have successfully accessed the application, you should see something like this on the screen...<br>
-  ***Image of home page***<br>
+  ![image](https://github.com/brochb/React-Single-Page-Portfolio/assets/39662430/e31c5044-48e1-4394-ad1b-8dea9c0159fe)
+<br>
   Future development will include styling, as well as a more user friendly UI.
 
   ## Contributing
-  Please fork off repo, create a new branch, and push changes to the new branch on the repo. Await merge request completion, you will be notified when you can pull main, and close your local branch.
-
-  ## Tests
-  Coming Soon
+  Please do not attempt to contribute to this project without contacting me directly first.
 
   ## Questions
   If you have any questions, feel free to reach out via email or GitHub.

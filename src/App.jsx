@@ -1,5 +1,5 @@
 import PortfolioContainer from "./components/PortfolioContainer";
-import Footer from "./components/footer"
+import Footer from "./components/Footer"
 
 const App = () => (
     <div className="portfolio-app">
