@@ -1,5 +1,8 @@
+import '../../styles/project.css'
+
 export default function Project({ title, description, deployedLink, repoLink, imageLink }) {
     return (
+        <div className="something">
         <div className="project-card">
             <h3>{title}</h3>
             <p>{description}</p>
@@ -12,10 +15,13 @@ export default function Project({ title, description, deployedLink, repoLink, im
                 <a href={deployedLink} target="_blank" rel="noopener noreferrer">
                     View Deployed
                 </a>
+            </div>
+            <div>
                 <a href={repoLink} target="_blank" rel="noopener noreferrer">
                     View Repository
                 </a>
             </div>
+        </div>
         </div>
     );
 }

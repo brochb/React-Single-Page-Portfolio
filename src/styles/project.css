@@ -1,0 +1,19 @@
+.project-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.project-card h3 {
+    color: #333;
+}
+
+.project-card p {
+    color: #666;
+}
