@@ -40,16 +40,38 @@ footer {
     border-color: #ddd #ddd #fff;
 }
 
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+    justify-content: space-between;
+}
+
+.projects-container h2 {
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.project-card-container {
+    flex: 1 1 calc(33.333% - 32px);
+    /* Fit three items per row, considering gap */
+    max-width: calc(33.333% - 32px);
+    /* Max width with gap accounted for */
+    min-width: 220px;
+    /* Minimum width to ensure cards don’t get too small */
+    box-sizing: border-box;
+    /* Include padding and border in width */
+}
+
 .project-card {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /* Arrange content vertically */
     border: 1px solid #ccc;
     padding: 16px;
-    margin: 16px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 30%;
     background-color: white;
 }
 

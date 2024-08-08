@@ -2,7 +2,7 @@ import '../../styles/project.css'
 
 export default function Project({ title, description, deployedLink, repoLink, imageLink }) {
     return (
-        <div className="something">
+        <div className="project-card-container">
         <div className="project-card">
             <h3>{title}</h3>
             <p>{description}</p>
@@ -13,7 +13,7 @@ export default function Project({ title, description, deployedLink, repoLink, im
             </div>
             <div>
                 <a href={deployedLink} target="_blank" rel="noopener noreferrer">
-                    View Deployed
+                    View Deployed   
                 </a>
             </div>
             <div>
