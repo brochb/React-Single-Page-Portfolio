@@ -54,8 +54,8 @@ const projects = [
 
 export default function Portfolio() {
     return (
-        <div className="portfolio-container">
-            <h2>Portfolio</h2>
+        <div className="projects-container">
+            <h2>A Collection of my Best Work</h2>
             {projects.map((project, index) => (
                 <Project
                     key={index}

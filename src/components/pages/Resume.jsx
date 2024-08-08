@@ -5,9 +5,11 @@ export default function Resume() {
             <p>
                 Download my resume by clicking the link below!
             </p>
-            <div><a href="../../../public/Resume-Brochb.pdf" download="Resume-Brochb.pdf">
-                Click here
-            </a></div>
+            <div>
+                <a href="/Resume-Brochb.pdf" download="Resume-Brochb.pdf">
+                    Click here
+                </a>
+            </div>
         </div>
     );
 }

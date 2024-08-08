@@ -10,25 +10,10 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-.project-card {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border: 1px solid #ccc;
-    padding: 16px;
-    margin: 16px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 30%;
-    background-color: white;
-}
-
-.project-card h3 {
-    color: var(--main-text-color);
-}
-
-.project-card p {
-    color: #666;
+footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #000000;
+    
 }
 
 .nav-tabs {
@@ -55,8 +40,36 @@ body {
     border-color: #ddd #ddd #fff;
 }
 
+.project-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    background-color: white;
+}
+
+.project-card h3 {
+    color: var(--main-text-color);
+}
+
+.project-card p {
+    color: #666;
+}
+
+.social-links {
+    display: flex;
+    justify-content: left;
+    gap: 0.5rem;
+}
+
 a {
     color: var(--accent-color);
+    text-decoration: none;
 }
 
 a:hover {
