@@ -55,19 +55,14 @@ footer {
 
 .project-card-container {
     flex: 1 1 calc(33.333% - 32px);
-    /* Fit three items per row, considering gap */
     max-width: calc(33.333% - 32px);
-    /* Max width with gap accounted for */
     min-width: 220px;
-    /* Minimum width to ensure cards don’t get too small */
     box-sizing: border-box;
-    /* Include padding and border in width */
 }
 
 .project-card {
     display: flex;
     flex-direction: column;
-    /* Arrange content vertically */
     border: 1px solid #ccc;
     padding: 16px;
     border-radius: 8px;
